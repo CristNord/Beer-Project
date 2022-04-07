@@ -1,0 +1,56 @@
+<html>  
+<head>  
+    <title>Register</title>
+    <link rel="stylesheet" href="style/form.css">
+    <link rel="stylesheet" href="style.css">
+      
+    </head>  
+    <body>  
+
+        <nav>
+            <div class="topnav">
+                <a class="logo" href="indexl.html"> <img src="image/logo.png" ></a>
+                <a href="Beer-store.html">Home</a>
+                <a href="Beer-List.html">See all Beers</a>
+                <a class="active" href="order-form.html">Order a Beer</a>
+                <a class="right " href="Register-beer.html">Register</a>
+                <a class="right" href="login-beer.html">Log in</a>
+            </div>
+        </nav>
+
+        <form>  
+            <div class="container" align="center">  
+                <h1> Order a Beer </h1>
+            <hr style="border: 1px solid white;">  
+            <label>Brand</label>   
+                <select>
+                    <option selected disabled> Select a brand</option>
+                    <option> Corona Extra 330ml</option>
+                    <option> Stella Artois 500ml</option>
+                    <option> Carlsberg 330ml</option>
+                    <option> Heineken 330ml</option>
+                </select>
+        
+            <label>Quantity</label>
+                <input type="number" min="1" max="15" placeholder="Enter amount of beers (1--15)">
+            
+            <label>Destination</label>   
+                <select>
+                    <option selected disabled> Select a destination</option>
+                    <option> Stockholm</option>
+                    <option> Malmö</option>
+                    <option> Sundsvall</option>
+                    <option> Gothenburg</option>
+                </select>
+            
+            <label for="birthday">Enter your Birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+                
+            <label>Got an option, comment, recommendation? <br> Share it with us</label>
+            <textarea cols="80"rows="5" placeholder="Share your opinion with us!">         </textarea>
+
+            <button type="submit">Submit Order</button>    
+            
+    </form>  
+</body>  
+</html>  
